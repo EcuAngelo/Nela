@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ titulo }}</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        h1{
+            font-size: 2em;
+        }
+        p{
+            font-size: 3%;
+            margin-bottom: 5em;
+            color: rgb(255, 255, 255);
+        }
+        
+        body{
+            background-image: url('/static/images/descarga.jpeg');
+            background-repeat: repeat; 
+            background-size: cover; 
+            background-position: center;
+        }
+        img{
+            display: block;
+            margin: 1em auto;
+            width: auto;
+            height: auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1><center>{{ titulo }}</center></h1>
+    <p><center>{{ texto }}</center></p>
+    <p><center>{{ texto1 }}</center></p>
+    <p><center>{{ texto2 }}</center></p>
+    <p><center>{{ texto3 }}</center></p>
+    <p><center>{{ texto4 }}</center></p>
+    <p><center>{{ texto5 }}</center></p>
+    <p><center>{{ texto6 }}</center></p>
+    <center><img src="{{ imagen }}" alt="Imagen personalizada"></center>
+    <p><center>{{ texto7 }}</center></p>
+    <p><center>{{ texto8 }}</center></p>
+    <p><center>{{ texto9 }}</center></p>
+    <p><center>{{ texto10 }}</center></p>
+</body>
+</html>
